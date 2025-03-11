@@ -24,14 +24,14 @@ export const portfolioCards = [
       type: "image",
       src: "/images/4.png",
       title: "Governor Initiative Website",
-      href: "https://github.com/NaziaImran786/governor-initiative-website/"
+      href: "https://portfolio-with-tailwindcss-nextjs.vercel.app/"
     },
     {
       id: 5,
       type: "image",
       src: "/images/5.png",
       title: 'Portfolio with tailwindcss and nextjs',
-      href: "https://github.com/NaziaImran786/Portfolio-with-tailwindcss-nextjs"
+      href: "https://portfolio-with-tailwindcss-nextjs.vercel.app/"
     },
     {
       id: 6,
