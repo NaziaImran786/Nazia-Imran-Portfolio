@@ -30,7 +30,7 @@ Recently pursuing Agentic AI Development, exploring the intersection of Python, 
       whileInView={{opacity: 1, x: 0}}
       transition={{duration: 1.5, type: "spring"}}
       >
-        <Image src={"/pic1.jpg"} alt={"profile picture"} width={400} height={400}></Image>
+        <Image src={"/pic1.jpg"} alt={"profile picture"} width={400} height={400} className='px-2'></Image>
       </motion.div>
     </section>
     </>

@@ -57,6 +57,7 @@
     .about{
         padding: 5rem 0rem;
         flex-direction: column;
+        align-items: center;
     }
 
     .aboutLeftDiv{

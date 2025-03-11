@@ -16,10 +16,10 @@ function PortfolioSection() {
       <p className={interFont.className}>
       In my most recent project, I designed and developed a modern, responsive web application using Next.js, TypeScript, and Tailwind CSS to ensure a seamless user experience across all devices. I integrated Framer Motion for smooth animations, Swiper.js for interactive carousels, and Shadcn for scalable UI components.
 
-To enhance content management, I implemented Sanity CMS, allowing for dynamic and structured content updates. Additionally, I optimized performance, accessibility, and SEO to improve user engagement and search engine visibility.
+To enhance content management, I implemented Sanity CMS, allowing for dynamic and structured content updates.
       </p>
 
-      <div className={styles.myWork}>
+      <div className={styles.myWork} >
         <PortfolioCard />
       </div>
     </section>

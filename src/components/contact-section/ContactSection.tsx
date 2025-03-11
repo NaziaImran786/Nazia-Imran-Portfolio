@@ -43,8 +43,7 @@ function ContactUs() {
           <span>M</span>e
         </h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt laudantium officia fuga ipsam quasi corrupti in
-        <br />numquam dolor libero explicabo, inventore aperiam.</p>
+        <p>Have a project in mind or need a modern, high-performing website? I’m here to help! Whether it&apos;s web design, front-end development, Next.js integration, or system architecture, I bring creativity and technical expertise to craft seamless digital experiences. Let&apos;s collaborate and bring your ideas to life.</p>
 
 
         <div className={styles.contactUsBottomDiv}>

@@ -46,7 +46,11 @@
 
 }
 
-@media(max-width: 768px) {        
+@media(max-width: 768px) { 
+    .hero{
+        padding-left: 8px;
+        padding-right: 8px;
+    }       
     .bottomImageDiv{
         padding: .5rem 1.8125rem;
         gap: 1.8125rem;

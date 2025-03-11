@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     .aboutBottomDiv{
-        padding: 1.25rem 0rem;
+        padding: 3.25rem 0rem;
         gap: 0rem;
     }
 }
@@ -18,7 +18,7 @@
 @media (max-width: 390px) {
     .aboutBottomDiv{
         padding: 2.625rem 0rem;
-        gap: 3.125rem;
+        gap: 1rem;
         flex-wrap: wrap;
         justify-content: flex-start;
     }

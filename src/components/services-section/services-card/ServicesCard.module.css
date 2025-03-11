@@ -1,5 +1,5 @@
 .card{
-    padding: 24px 16px;
+    padding: 4px 16px;
     background-color: var(--background-light-gray);
     border-radius: 12px;
     text-align: start;
@@ -10,7 +10,6 @@
       background-color: #e39292;
 
     }
-  
   }
   
   .cardImage{
@@ -31,3 +30,13 @@
     line-height: 1.5rem;
     margin-bottom: 0rem;
   }
+
+@media (max-width: 768px) {
+    .card{  
+      margin: 1rem;
+    }
+    .card h1{
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+}

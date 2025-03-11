@@ -1,7 +1,7 @@
 .contactUs{
   width: 100%;
   background-color: var(--background-gray);
-  padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+  padding: 3.625rem 9.1875rem 10rem 9.1875rem;
   text-align: center;
 }
   
@@ -76,6 +76,12 @@
 .topInputDiv input{
   width: 320px;
 }
+
+@media (max-width: 390px) {
+  .topInputDiv input{
+  width: auto;
+  }
+}
   
 .inputDetails{
   padding: 15px 0 15px 12px;
@@ -95,6 +101,13 @@
    background-color: var(--hover-button-color);
   }
 } 
+
+@media screen and (max-width: 1024px) {
+  .inputBtn{
+    width: 100%;
+  }
+  
+}
 
 @media ( max-width: 768px) {
   .contactUs{

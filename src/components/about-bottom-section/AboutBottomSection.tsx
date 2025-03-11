@@ -23,8 +23,10 @@ const childVariants = {
 }
 function AboutBottomSection() {
   return (
-    <>
-    <motion.div className={styles.aboutBottomDiv}      
+    <> 
+     <h1 className='text-4xl font-bold text-white bg-[#1a1a1a] text-center py-2'>My Skills</h1>     
+
+    <motion.div className={styles.aboutBottomDiv} 
     variants={containerVariants}
     initial="hidden"
     whileInView="show"    

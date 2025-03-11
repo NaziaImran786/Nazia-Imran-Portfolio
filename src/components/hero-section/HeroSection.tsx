@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from './HeroSection.module.css'
 import { interFont } from '@/fonts'
 import Button from '../button/Button'
@@ -57,7 +57,7 @@ function HeroSection() {
          <a href='www.linkedin.com/in/nazia-imran-588090300'><FaLinkedin size={30} color='black' /></a>
          </div>
          
-         <div className={styles.bottomImageDiv}>
+         {/* <div className={styles.bottomImageDiv}>
             <Image src={"/behance.png"} alt='behance picture' width={156} height={156}>
             </Image>
 
@@ -70,7 +70,7 @@ function HeroSection() {
             <Image src={"/freelance.png"} alt='freelance picture' width={156} height={156}>
             </Image>
          
-         </div>
+         </div> */}
       </section>
       
     </>

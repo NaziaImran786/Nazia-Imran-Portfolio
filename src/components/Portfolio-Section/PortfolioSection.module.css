@@ -24,7 +24,7 @@
 .myWork{
   width: 100%;
   display: grid;
-  gap: 5.9375rem;
+  gap: 5.9375rem;  
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -38,6 +38,6 @@
 @media (max-width: 390px) {
   .myWork{
       grid-template-columns: repeat(1, 1fr);
-      gap: 0;
+      gap: 1rem;
   }
 }

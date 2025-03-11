@@ -7,7 +7,7 @@ import AboutBottomSection from "@/components/about-bottom-section/AboutBottomSec
 import Services from "@/components/services-section/ServiceSection";
 import ContactUs from "@/components/contact-section/ContactSection";
 import FooterSection from "@/components/footer-section/FooterSection";
-import Testimonials from "@/components/testimonials/Testimonials";
+// import Testimonials from "@/components/testimonials/Testimonials";
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
    <AboutBottomSection />
    <PortfolioSection />
    <Services/>
-   <Testimonials/>
+   {/* <Testimonials/> */}
    <ContactUs/>
    <FooterSection/>
    </div>
