@@ -42,7 +42,7 @@ function HeroSection() {
 
          <p>
             I can build user interface for websites and application with {" "}
-            <br /><span>React</span> and {" "}
+            <br /><span>Typescript</span> and {" "}
             <span>Next.JS </span> 
             <br /> I love frontend development.
          </p>
@@ -54,7 +54,7 @@ function HeroSection() {
          <a href='https://github.com/NaziaImran786'><FaGithub size={30} color='black' /></a>
          <FaInstagramSquare size={30} color='black' />
          <FaWhatsappSquare size={30} color='black' />
-         <a href='www.linkedin.com/in/nazia-imran-588090300'><FaLinkedin size={30} color='black' /></a>
+         <a href='https://www.linkedin.com/in/nazia-imran-588090300'><FaLinkedin size={30} color='black' /></a>
          </div>
          
          {/* <div className={styles.bottomImageDiv}>

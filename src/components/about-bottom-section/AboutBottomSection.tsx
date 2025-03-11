@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './AboutBottomSection.module.css'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
-
+import { caveatFont } from '@/fonts'
 
 //parent section
 const containerVariants = {
@@ -23,8 +23,11 @@ const childVariants = {
 }
 function AboutBottomSection() {
   return (
-    <> 
-     <h1 className='text-4xl font-bold text-white bg-[#1a1a1a] text-center py-2'>My Skills</h1>     
+    <section id='skills' className={styles.skills}> 
+     <h1 className={caveatFont.className}>
+      <span>M</span>y 
+      <span>S</span>kills
+      </h1>       
 
     <motion.div className={styles.aboutBottomDiv} 
     variants={containerVariants}
@@ -41,7 +44,7 @@ function AboutBottomSection() {
       <motion.div variants={childVariants}><Image src={"/next.png"} alt={"next picture"} width={96} height={96}></Image></motion.div>
       <motion.div variants={childVariants}><Image src={"/python.png"} alt={"python picture"} width={96} height={96}></Image></motion.div>
     </motion.div>      
-    </>
+    </section>
   )
 }
 

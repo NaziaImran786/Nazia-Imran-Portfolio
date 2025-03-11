@@ -6,7 +6,23 @@
     justify-content: space-between;
     gap: 4rem;
     align-items: center;
-}  
+} 
+
+.skills{
+    width: 100%;
+    background-color: var(--background-gray);
+    text-align: center;
+    padding-top: 2rem;
+}
+.skills h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+    
+.skills span{
+    color: var(--logo-color);
+  }
 
 @media (max-width: 768px) {
     .aboutBottomDiv{
