@@ -24,7 +24,7 @@ export const portfolioCards = [
       type: "image",
       src: "/images/4.png",
       title: "Governor Initiative Website",
-      href: "https://portfolio-with-tailwindcss-nextjs.vercel.app/"
+      href: "https://governor-initiative-website-multipage.vercel.app/"
     },
     {
       id: 5,
