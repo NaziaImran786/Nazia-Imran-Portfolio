@@ -1,3 +1,4 @@
+// src\components\contact-section\ContactSection.tsx
 'use client'
 import React, { useState } from 'react'
 import styles from './ContactSection.module.css'
@@ -22,7 +23,7 @@ function ContactUs() {
     };
 
     try{
-      await sendEmail(templateParams);
+        await sendEmail(templateParams);
         alert("Email sent successfully");
         setName('');
         setEmail('');
